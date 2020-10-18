@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'B612', sans-serif;
+  color: #070823;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background: #FCFAF5;
+  position: relative;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.homepage-content {
+  width: 48%;
+  height: 80%;
+  border: 1px solid black;
+  margin: auto;
+  padding: 10px;
+}
+
+.homepage-content .dropoff {
+  font-size: 4.4em;
+  font-weight: 500;
+}
+
+.homepage-form {
+  width: 48%;
+  height: 80%;
+  border: 1px solid black;
+  margin: auto;
+  padding: 10px;
+}
+
+.form {
+  background: #E7EDFA;
+  width: 60%;
+  height: 100%;
+  border-radius: 8px;
+  margin: auto;
+  padding: 1.5em;
+}
+
+.email, .password {
+  width: 100%;
+  height: 6vh;
+  margin-top: 1.5em;
+}
+
+.submit {
+  background: #070823;
+  color: #FCFAF5;
+  width: 100%;
+  height: 6vh;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0.5em;
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+  padding: 0.6rem;
+}
+
+.forgot-password {
+  display: inline-block;
+  color: #070823;
+  font-size: 0.88em;
+  line-height: 1.3em;
+  margin-left: 9em;
+}
+
+#form-hr {
+  margin-top: 5em;
+  margin-bottom: 1em;
+}
+
+.create-account {
+  background: #FCFAF5;
+  color: #070823;
+  width: 100%;
+  height: 6vh;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0.5em;
+}
+
+#user-container {
+  width: 100vw;
+  height: 100vh;
+  background: #FCFAF5;
+  position: relative;
+}
+
+.top-nav {
+  width: 94%;
+  height: 10vh;
+  background-image: linear-gradient(80deg, #114975, #10436A, #0C1B26, #08131C 88%);
+  float: right;
+  position: relative;
+  padding: 1em;
+}
+
+.side-nav {
+  width: 6%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#114975), color-stop(#10436A), color-stop(#0C1B26), color-stop(88%, #08131C));
+  background-image: linear-gradient(0deg, #114975, #10436A, #0C1B26, #08131C 88%);
+  position: relative;
+}
+
+.search-bar {
+  width: 30vw;
+  height: 5vh;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  opacity: 0.74;
+  padding: 0.8em;
+  font-size: 0.75em;
+  line-height: 1.5em;
+}
+
+.user-initials {
+  width: 3.5vw;
+  height: 7.5vh;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  opacity: 0.8;
+  color: #070823;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.7em;
+  font-size: 1.2em;
+}
+
+.menu-container {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu {
+  width: 100%;
+  height: 10vh;
+  padding: 0.6em 1em;
+  margin-bottom: 1em;
+  color: #FCFAF5;
+  cursor: pointer;
+}
+
+.menu:hover {
+  opacity: 0.5;
+}
+
+.menu-icon .fal {
+  font-size: 1.6em;
+  margin-left: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.menu-title {
+  font-size: 0.8em;
+}
+
+.menu-title.files {
+  margin-left: 0.7em;
+}
+
+.active {
+  color: #070823;
+  background: #FCFAF5;
+}
+
+#user-page {
+  width: 94%;
+  height: 90vh;
+  position: absolute;
+  top: 10%;
+  right: 0;
+  padding: 2em;
+}
+
+.heading {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+#user-hr {
+  margin-top: 0.3em;
+}
+
+.port-btn {
+  display: inline-block;
+  background: #114975;
+  color: #FCFAF5;
+  font-size: 0.75em;
+  border-radius: 0.6em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.6em;
+  margin: 1em 2em 0 0;
+  cursor: pointer;
+}
+
+.portfoilo-container {
+  margin-top: 3em;
+}
+
+.portfolio-elements {
+  padding: 0.1em 0.6em;
+  position: relative;
+}
+
+.elements {
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+.storage {
+  position: absolute;
+  left: 40%;
+}
+
+.portfolio-item {
+  padding: 0.6em;
+  background: #E7EDFA;
+  margin-bottom: 0.3rem;
+  font-size: 0.9em;
+  position: relative;
+}
+
+.portfolio-item-name {
+  display: inline-block;
+}
+
+.portfolio-item-storage {
+  display: inline-block;
+  position: absolute;
+  left: 40%;
+  font-size: 0.8em;
+}
+
+#entries-page {
+  width: 94%;
+  height: 90vh;
+  position: absolute;
+  top: 10%;
+  right: 0;
+  padding: 2em;
+}
+
+.return {
+  opacity: 0.5;
+  margin-bottom: 0.6em;
+  cursor: pointer;
+}
+
+.return a {
+  text-decoration: none;
+  color: #070823;
+}
+
+a > .fa-long-arrow-left {
+  margin-right: 0.5em;
+}
+
+.update-entry {
+  float: right;
+  margin-right: 5em;
+}
+
+.delete-entry {
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */
