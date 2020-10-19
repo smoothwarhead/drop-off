@@ -43,6 +43,7 @@
             <hr id="user-hr">
             <div class="port-btn create-portfolio">Create Portfolio</div>
             <div class="port-btn delete-portfolio">Delete Portfolio</div>
+
             <div class="portfoilo-container">
                 <div class="portfolio-elements">
                     <p class="elements portfolio-name">Portfolio name</p>
@@ -53,17 +54,38 @@
                     <div class="portfolio-item">
                         <div class="portfolio-item-name">Tech</div>
                         <div class="portfolio-item-storage">0.323B</div>
+                        <div class="trash"><i class="fas fa-trash"></i></div>
                     </div>
                     <div class="portfolio-item">
                         <div class="portfolio-item-name">Farm</div>
                         <div class="portfolio-item-storage">0.323B</div>
+                        <div class="trash"><i class="fas fa-trash"></i></div>
                     </div>
                     <div class="portfolio-item">
                         <div class="portfolio-item-name">Transport</div>
                         <div class="portfolio-item-storage">0.323B</div>
+                        <div class="trash"><i class="fas fa-trash"></i></div>
                     </div>
                     
                 </div>
+            </div>
+        </div>
+
+        <div class="pop-up">
+            <div class="create-form">
+                
+                <form class="portfolio-create">
+                    <div class="close-icon"><i class="fal fa-times"></i></div>
+                    <label for="porfolio name" id="lbl-name">Portfolio name</label>
+                    <input type="text" name="portfolioName" id="portfolio-name">
+                    <span id="portfolio-type">Portfolio Type</span>
+                    <div class="checkbox">
+                        <input type="checkbox" id="accounting" name="accounting">
+                        <label for="accounting" id="lbl-accounting">Accounting</label>
+                    </div>                    
+
+                    <button class="submit">Create Portfolio</button>
+                </form>
             </div>
         </div>
 
@@ -71,6 +93,6 @@
 
 
     
-    <script src="./js/homepage.js"></script>
+    <script src="./js/user.js"></script>
 </body>
 </html>
